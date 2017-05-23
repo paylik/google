@@ -255,3 +255,64 @@ header a {
     font-size: 17px;
   }
 }
+
+
+
+.general {
+  clear: both;
+  padding-top: 150px;
+}
+
+.title {
+  width: 272px;
+  height: 92px;
+  margin: 0 auto;
+  background: no-repeat url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+  position: relative;
+  & p {
+    position: absolute;
+    bottom: -16px;
+    right: -24px;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+  }
+}
+
+.search {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 25px auto;
+  width: 584px;
+  & input {
+    border: none;
+    height: 34px;
+    width: 463px;
+    display: inline-block;
+    font: 16px arial,sans-serif;
+    }
+  & .tool {
+    display: inline-block;
+
+    & .key {
+      display: inline-block;
+      padding: 10px;
+      margin: -7px;
+      height: 23px;
+      width: 18px;
+      overflow: hidden;
+      background: url(data:image/gif;base64,R0lGODlhEwALAKECAAAAABISEv///////yH5BAEKAAIALAAAAAATAAsAAAIdDI6pZ+suQJyy0ocV3bbm33EcCArmiUYk1qxAUAAAOw==) no-repeat center;
+    }
+    & .mic {
+      display: inline-block;
+      padding: 10px;
+      margin: -7px;
+
+      overflow: hidden;
+      & img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
