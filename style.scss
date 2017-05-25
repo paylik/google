@@ -280,16 +280,18 @@ header a {
 
 .search {
   text-align: center;
-  border: 1px solid #ccc;
-  padding: 5px;
+  border: 1px solid #c6c6c6;
   margin: 25px auto;
   width: 584px;
+  border-radius: 3px;
+
   & input {
     border: none;
     height: 34px;
     width: 463px;
     display: inline-block;
     font: 16px arial,sans-serif;
+    vertical-align: text-bottom;
     }
   & .tool {
     display: inline-block;
@@ -306,7 +308,7 @@ header a {
     & .mic {
       display: inline-block;
       padding: 10px;
-      margin: -7px;
+      margin: 15px;
 
       overflow: hidden;
       & img {
@@ -314,5 +316,15 @@ header a {
         width: 24px;
       }
     }
+  }
+}
+.button {
+  text-align: center;
+  & input {
+    border: none;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    font-weight: bold;
+    font-family: arial,sans-serif;
   }
 }
