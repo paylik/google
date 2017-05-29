@@ -24,7 +24,7 @@
                 <div class="gb_lb"></div>
                 <div class="gb_kb"></div>
 
-                <div class="header_app_1">
+                <div class="header_app_1" id="app-1">
 
 
                     <ul>
@@ -42,10 +42,11 @@
                         <li class="app_12"><a href="https://photos.google.com/"><span></span>Фото</a></li>
                     </ul>
 
-                    <input class="hide" id="hd-2" type="checkbox">
-                    <label for="hd-2">Ещё</label>
+                    <input class="hide hide_1" id="hd-2" type="checkbox">
+                    <label for="hd-2" class="header_app_1_other">Ещё</label>
 
                     <div class="header_app_2">
+                        <div class="line"></div>
                         <ul>
                             <li class="app_13"><a href="https://wallet.google.com/"><span></span>Кошелек</a></li>
                             <li class="app_14"><a href="https://docs.google.com/document/"><span></span>Документы</a></li>
@@ -71,10 +72,24 @@
         <div class="search">
             <input type="text">
             <div class="tool">
-                <div class="key"></div>
-                <div class="mic"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC" alt=""></div>
+                <div class="key">
+                    <div class="hint">
+                        <div class="arrow"></div>
+                        <p>Экранная клавиатура</p>
+                    </div>
+
+                </div>
+                <div class="mic"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC">
+                    <div class="hint">
+                        <div class="arrow"></div>
+                        <p>Голосовой поиск</p>
+                    </div>
+
+                </div>
             </div>
         </div>
+
+
         <div class="button">
             <input type="submit" value="Поиск в Google">
             <input type="submit" value="Мне повезёт!">
@@ -86,7 +101,28 @@
         <div class="footer_1">
             <a href="//www.google.com/intl/ru/policies/privacy/">Конфиденциальность</a>
             <a href="//www.google.com/intl/ru/policies/terms/">Условия</a>
-            <a href="https://www.google.com/preferences/">Настройки</a>
+
+
+
+
+            <div class="footer_app">
+                <input class="hide" id="hd-3" type="checkbox">
+                <label for="hd-3">Настройки</label>
+
+                <div class="footer_app_1">
+
+
+                        <ul>
+                            <li><a href="https://www.google.com/preferences">Настройки поиска</a></li>
+                            <li><a href="https://www.google.com/advanced_search/">Расширенный поиск</a></li>
+                            <li><a href="https://www.google.com/history/">История</a></li>
+                            <li><a href="https://support.google.com/websearch/">Справка по поиску</a></li>
+                            <li><a href="https://www.google.com/">Отправить отзыв </a></li>
+                        </ul>
+
+
+                    </div></div>
+
             <a href="https://www.google.by/">Перейти на Google.by</a>
         </div>
         <div class="footer_2">
@@ -95,6 +131,8 @@
             <a href="https://www.google.com/intl/ru/about.html/">Всё о Google</a>
         </div>
     </footer>
+
+    <script src="scroll.js"></script>
 
 </body>
 </html>
