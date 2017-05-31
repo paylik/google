@@ -24,9 +24,9 @@
         var delta = e.deltaY || e.detail || e.wheelDelta;
 
         if (delta <= 0) {
-            check_2.checked = false;
+            check.checked = false;
         } else {
-            check_2.checked = true;
+            check.checked = true;
         }
 
     }
