@@ -1,7 +1,7 @@
 
 (function scroll() {
     var tools = document.querySelector('.header_app_1');
-    var check_2 = document.querySelector('#hd-2');
+    var check = document.querySelector('#hd-2');
 
     if (tools.addEventListener) {
         if ('onwheel' in document) {
@@ -35,7 +35,7 @@
         myDiv = document.getElementById('hd-1');
         if (e.target.id != myDiv.id)  {
             myDiv.checked = false;
-            check_2.checked = false;
+            check.checked = false;
         }
     };
 

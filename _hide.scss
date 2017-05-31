@@ -1,0 +1,47 @@
+
+.hide,
+.hide + label ~ div {
+  display: none;
+}
+
+.hide + label {
+  margin: -10px auto;
+  color: #737373;
+  cursor: pointer;
+  display: inline-block;
+  opacity: .55;
+  &:hover{
+    opacity: 1;
+  }
+
+}
+
+.hide:checked + label + div {
+  display: block;
+  -webkit-animation:fade ease-in 0.2s;
+  -moz-animation:fade ease-in 0.2s;
+  animation:fade ease-in 0.2s;
+}
+@-moz-keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1 }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1 }
+}
+.hide + label:before {
+  background: url(img/icon.png) -132px 30px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  content: ' ';
+}
+
+.hide_1:checked + .header_app_1_other {
+  display: none;
+}

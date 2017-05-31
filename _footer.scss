@@ -34,6 +34,7 @@ footer {
       top: -242px;
       right: 101px;
       border: 1px solid #999999;
+      background-color: white;
       & ul {
         left: -18px;
         position: relative;
@@ -52,7 +53,7 @@ footer {
         & li:last-child {
           padding-bottom: 5px;
         }
-      }}
+      }
+    }
   }
-
 }
